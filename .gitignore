@@ -1,0 +1,9 @@
+# ignore these Windows-related files
+desktop.ini
+*.exe
+
+# ignore these vi-related files
+*.swp
+
+# ignore these Java-related files
+*.class
