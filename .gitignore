@@ -7,3 +7,6 @@ desktop.ini
 
 # ignore these Java-related files
 *.class
+
+# ignore these folders
+sandbox
