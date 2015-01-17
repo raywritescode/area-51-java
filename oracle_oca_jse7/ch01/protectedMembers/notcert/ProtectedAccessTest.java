@@ -9,7 +9,7 @@ package notcert;
 
 import cert.OtherClassProtected;
 
-class ProtectedAccessTest extends OtherClassProtected {
+class ProtectedAccessTest {
   static public void main(String[] args) {
     OtherClassProtected o = new OtherClassProtected();
     o.testIt();
@@ -19,7 +19,7 @@ class ProtectedAccessTest extends OtherClassProtected {
 // javac output...
 
 //   $ javac notcert/ProtectedAccessTest.java 
-//   notcert/ProtectedAccessTest.java:13: error: testIt() has protected access in OtherClassProtected
+//   notcert/ProtectedAccessTest.java:15: error: testIt() has protected access in OtherClassProtected
 //       o.testIt();
 //        ^
 //   1 error
