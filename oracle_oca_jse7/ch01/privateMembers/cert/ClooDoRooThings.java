@@ -1,6 +1,6 @@
 // ClooDoRooThings.java
 // This subclass of Roo can't use the private Roo.doRooThings() method
-// so it uses it's own dooRooThings() method, which is NOT and overriding
+// so it uses it's own dooRooThings() method, which is NOT an overriding
 // of Roo.doRooThings()
 
 package cert;
