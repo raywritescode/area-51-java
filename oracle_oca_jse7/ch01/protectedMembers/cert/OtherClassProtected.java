@@ -3,8 +3,12 @@
 package cert;
 
 public class OtherClassProtected {
-  protected void testIt() {   // protected modifier means method method can be used in an
-                              // instantiated class located in a different package
-     System.out.println("OtherClassProtected.testIt()");
+  protected void testIt() {   // protected method can be used by class object in different package 
+     System.out.println("from OtherClassProtected.testIt() method");
+  }
+
+  public static void main(String[] args) {
+    OtherClassProtected ocp = new OtherClassProtected();
+    ocp.testIt();
   }
 }
