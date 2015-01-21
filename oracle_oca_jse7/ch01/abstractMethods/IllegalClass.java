@@ -1,5 +1,5 @@
 // IllegaClass.java
-// javac will not compile this class because the class is not a non-abstract class
+// javac will not compile this class because the class is a non-abstract class
 // that contains an abstract method.
 
 public class IllegalClass {
