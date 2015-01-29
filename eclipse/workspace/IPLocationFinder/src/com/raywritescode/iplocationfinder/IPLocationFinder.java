@@ -15,7 +15,10 @@ public class IPLocationFinder {
 			GeoIPService ipService = new GeoIPService();
 			GeoIPServiceSoap geoIPServiceSoap = ipService.getGeoIPServiceSoap();
 			GeoIP geoIp = geoIPServiceSoap.getGeoIP(ipAddress);
+			System.out.println( geoIp.getIP() );
+			System.out.println( geoIp.getReturnCodeDetails() );
 			System.out.println( geoIp.getCountryName() );
+			System.out.println( geoIp.getCountryCode() );
 		}
 	}
 }
