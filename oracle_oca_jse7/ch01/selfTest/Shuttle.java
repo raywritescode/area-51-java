@@ -9,6 +9,7 @@ class Rocket {
 public class Shuttle extends Rocket {
    public static void main( String[] args ) {
       new Shuttle().go();
+      System.out.println();
    }
 
    void go() {
