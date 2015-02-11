@@ -1,4 +1,5 @@
 // Electronic.java
+// Ch01 Self Test Question 6
 // class file compiles without error
 
 public class Electronic implements Device {
