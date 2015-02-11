@@ -11,3 +11,10 @@ class _ {
       out.println( $ );
    }
 }
+
+// Example run
+
+//   $ java _ - A .
+//   3
+//   A.
+
