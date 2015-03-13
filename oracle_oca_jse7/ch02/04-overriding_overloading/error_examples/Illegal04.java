@@ -7,7 +7,7 @@ class Animal {
 }
 
 class Illegal04 extends Animal {
-   public String eat()  { }  // Not an override because of the return type. Not an overload either, no change in argument list.
+   public String eat()  { }  // Not an override because of the return type. Not an overload either because no change in argument list.
    public static void main( String[] args ) {
       // code goes here
    }
