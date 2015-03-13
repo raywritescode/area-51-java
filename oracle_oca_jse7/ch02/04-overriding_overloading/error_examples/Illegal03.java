@@ -13,4 +13,4 @@ class Illegal03 extends Animal {
    }
 }
 
-// This code compiles without error because Illega03's eat() method is an overload and not an override.
+// This code compiles without error because Illegal03's eat() method is an overload and not an override.
