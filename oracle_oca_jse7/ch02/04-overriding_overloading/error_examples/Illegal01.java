@@ -1,4 +1,4 @@
-// Animal.java
+// Illegal01.java
 
 class Animal {
    public void eat() {
